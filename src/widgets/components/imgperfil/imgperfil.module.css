@@ -1,0 +1,6 @@
+.foto{
+    height: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    pointer-events: all;
+}

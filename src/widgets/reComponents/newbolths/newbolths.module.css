@@ -1,0 +1,133 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.newBolthItem{
+    height: auto;  
+    min-height: 131px;
+    border-bottom: 1px solid #808080;
+    background:#30475e!important;
+    
+}
+.newBolthItem:hover{
+  
+  background:#354e68!important;
+  
+}
+.head{
+    margin-top: 10px;
+    display: inline-flex;
+    width: 100%;
+    margin-left: 7px;
+    justify-content: left;
+}
+.body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.propic{
+    height: 45px;
+    border-radius: 50%;
+}
+.tagname{
+    font-size: 16px;
+    margin-left: 6px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.user{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-left: 6px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.bolthBody{
+    font-size: 13px;
+    text-align: left;
+    text-justify: left;
+    text-justify: inter-word;
+    color: white;
+    margin-left: 60px;
+    margin-top: -25px;
+    margin-right: 50px;
+}
+.reactions{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+}
+.iconosFaComments {
+    position: relative;
+    bottom: -17px;
+    -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.iconosFaComments:hover {
+    color: #ececec;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.iconosFaRetweet{
+    position: relative;
+    bottom: -17px;
+    -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.iconosFaRetweet:hover{
+    color: #0abe73;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.iconosFaStar {
+    position: relative;
+    bottom: -17px;
+    -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.iconosFaStar:hover {
+    color: #ffee00;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.iconosFaShare {
+    position: relative;
+    bottom: -17px;
+    -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.iconosFaShare:hover {
+    color: #d6bd97;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}

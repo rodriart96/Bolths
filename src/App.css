@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  background:#30475e!important;
+  font-family: 'Roboto', sans-serif!important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+      background:#30475e!important;
+      font-family: 'Roboto', sans-serif !important;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,6 +32,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
