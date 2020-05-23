@@ -5,12 +5,14 @@ import NewBolths from '../../reComponents/newbolths/newbolths';
 const Home = ()=>{
     return(
         <div>
-            <NewBolths
-                type="card"
-                loadmore={true}
-                start={0}
-                startAmount={4}
-                amount={4}
+            <NewBolths arroz={{
+                type:"card",
+                loadmore:true,
+                start:0,
+                startAmount:4,
+                amount:4
+            }}
+                
             />
         </div>
     )

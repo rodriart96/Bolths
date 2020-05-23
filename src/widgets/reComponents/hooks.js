@@ -1,33 +1,32 @@
 import React,{useState, useEffect} from 'react';
-import styles from './newbolths.module.css';
-import { Link } from 'react-router-dom';
+//import styles from './newbolths.module.css';
+//import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShare, faComments,faRetweet,faStar   } from '@fortawesome/free-solid-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faShare, faComments,faRetweet,faStar   } from '@fortawesome/free-solid-svg-icons';
 
 
-import {URL} from '../../../db/config';
 
-function useNewBolths(props) {
+
+function Hooks(props) {
     const  [Bolths, setBolths] = useState({
-        items:[],
-        start:props.start,
-        end:props.amount + props.start,
-        amount:props.amount,
-        startAmount:props.startAmount
+        items:[]
     });
 
-    let request;
-
-    useEffect(async ()=>{
-        
-        const request = await axios(`${URL}/tlBolths?_start=${startAmount}&_end=${end}`);
-            
-            
-                setBolths(request.Bolths);
+    useEffect( () => {
+        axios.get(`http://localhost:3004/tlBolths`)
+            .then( res=>{
+                console.log(res)
+                })
+            .catch(err =>{
+                console.log(err)
+                })
             })
-        
-        return request()
+            return(
+                <div>
+                    funciona
+                </div>
+            )
     };
     
  //   const loadMore = () =>{
@@ -74,13 +73,4 @@ function useNewBolths(props) {
 
 
 
-export default function NewBolths() {
-    
-   const Bolths = useNewBolths()
-
-    return Bolths.items == null ? (
-        <div>Cargando...</div>
-    ) : (
-        <div>Arroz con pollo</div>
-    );
-}
+export default Hooks;

@@ -1,15 +1,11 @@
 .container{
   display: flex;
   flex-direction: column;
-  
 }
 
-.newBolthItem{
-    height: auto;  
-    min-height: 131px;
+.newBolthItem{  
     border-bottom: 1px solid #808080;
     background:#30475e!important;
-    
 }
 .newBolthItem:hover{
   
@@ -33,14 +29,14 @@
     border-radius: 50%;
 }
 .tagname{
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 6px;
     text-decoration: none;
     list-style: none;
     color: white;
 }
 .user{
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 1px;
     margin-left: 6px;
     text-decoration: none;
@@ -48,25 +44,27 @@
     color: white;
 }
 .bolthBody{
+  font-weight: 300;
     font-size: 13px;
     text-align: left;
     text-justify: left;
     text-justify: inter-word;
     color: white;
-    margin-left: 60px;
-    margin-top: -25px;
+    margin-left: 58.5px;
+    margin-top: -33px;
     margin-right: 50px;
-}
+  margin-bottom: -20px;
+  }
 .reactions{
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
     width: 100%;
-    margin-top: 30px;
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 .iconosFaComments {
     position: relative;
-    bottom: -17px;
+    bottom: -30px;
     -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -83,7 +81,7 @@
 
 .iconosFaRetweet{
     position: relative;
-    bottom: -17px;
+    bottom: -30px;
     -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -100,7 +98,7 @@
 
 .iconosFaStar {
     position: relative;
-    bottom: -17px;
+    bottom: -30px;
     -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -117,7 +115,7 @@
 
 .iconosFaShare {
     position: relative;
-    bottom: -17px;
+    bottom: -30px;
     -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
